@@ -26,7 +26,7 @@ if (process.env.APPLICATIONINSIGHTS_CONNECTION_STRING) {
 }
 
 // Core Express & logging stuff
-import express from 'express'
+import express from 'express
 import path from 'path'
 import logger from 'morgan'
 import session from 'express-session'
